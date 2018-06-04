@@ -8,8 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_SPLIT_COMPLEX_H_
-#define AM_NUMERIC_SPLIT_COMPLEX_H_
+#pragma once
 
 #include <cmath>
 #include <cfloat>
@@ -1125,5 +1124,3 @@ struct common_numeric_type<scomplex<T1>,scomplex<T2>>
 
 }  // namespace num
 }  // namespace am
-
-#endif

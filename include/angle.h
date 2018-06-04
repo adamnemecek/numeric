@@ -8,8 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_ANGLE_H_
-#define AM_NUMERIC_ANGLE_H_
+#pragma once
 
 #include <cmath>
 #include <utility>
@@ -1360,6 +1359,3 @@ max(const inclination_interval<T>&) noexcept {
 
 }  // namespace num
 }  // namespace am
-
-
-#endif

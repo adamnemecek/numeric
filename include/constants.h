@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_CONSTANTS_H_
-#define AM_NUMERIC_CONSTANTS_H_
-
+#pragma once
 
 #include <cstdint>
 
@@ -109,5 +107,3 @@ constexpr long double operator "" _e(unsigned long long int x)
 }  // namespace num
 }  // namespace am
 
-
-#endif

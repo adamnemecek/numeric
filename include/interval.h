@@ -8,8 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_RANGE_H_
-#define AM_NUMERIC_RANGE_H_
+#pragma once
 
 #include <type_traits>
 #include <utility>
@@ -1200,5 +1199,3 @@ consolidate_intervals(std::vector<interval<T>>& ivals, const interval<T>& toAdd)
 }  // namespace num
 } //namespace am
 
-
-#endif

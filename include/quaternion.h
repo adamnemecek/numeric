@@ -8,8 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_QUATERNION_H_
-#define AM_NUMERIC_QUATERNION_H_
+#pragma once
 
 #include <cmath>
 #include <random>
@@ -955,6 +954,3 @@ pow(const quaternion<T1>& q, const T2& exponent)
 
 }  // namespace num
 }  // namespace am
-
-
-#endif

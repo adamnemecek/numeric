@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_NATURAL_H_
-#define AM_NUMERIC_NATURAL_H_
-
+#pragma once
 
 #include <cstdint>
 #include <cmath>
@@ -895,4 +893,3 @@ public:
 
 } // namespace std
 
-#endif

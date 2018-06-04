@@ -8,8 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_TRAITS_H_
-#define AM_NUMERIC_TRAITS_H_
+#pragma once
 
 #include <type_traits>
 #include <utility>
@@ -609,5 +608,3 @@ struct is_interval<T> :
 
 }  // namespace num
 }  // namespace am
-
-#endif

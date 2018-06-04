@@ -8,8 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_CHOICE_H_
-#define AM_NUMERIC_CHOICE_H_
+#pragma once
 
 #include <type_traits>
 #include <limits>
@@ -492,5 +491,3 @@ public:
 
 
 } // namespace std
-
-#endif

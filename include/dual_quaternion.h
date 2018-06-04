@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_DUAL_QUATERNION_H_
-#define AM_NUMERIC_DUAL_QUATERNION_H_
-
+#pragma once
 
 #include "quaternion.h"
 #include "dual.h"
@@ -169,5 +167,3 @@ make_dual(const quaternion<T>& q)
 }  // namespace num
 }  // namespace am
 
-
-#endif

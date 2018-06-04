@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_CONSTANT_H_
-#define AM_NUMERIC_CONSTANT_H_
-
+#pragma once
 
 #include "traits.h"
 
@@ -104,5 +102,3 @@ make_constant(T&& x)
 }  // namespace num
 }  // namespace am
 
-
-#endif

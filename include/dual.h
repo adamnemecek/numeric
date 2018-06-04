@@ -8,8 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_DUAL_H_
-#define AM_NUMERIC_DUAL_H_
+#pragma once
 
 #include <cmath>
 #include <cfloat>
@@ -1255,5 +1254,3 @@ struct common_numeric_type<dual<T1>,dual<T2>>
 }  // namespace num
 }  // namespace am
 
-
-#endif

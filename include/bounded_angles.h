@@ -8,10 +8,7 @@
  *
  *****************************************************************************/
 
-
-#ifndef AM_NUMERIC_ANGLES_H_
-#define AM_NUMERIC_ANGLES_H_
-
+#pragma once
 
 #include "angle.h"
 #include "bounded.h"
@@ -100,5 +97,3 @@ using wrapped_gons = wrapped_angle<gons_turn<T>>;
 
 }  // namespace num
 }  // namespace am
-
-#endif

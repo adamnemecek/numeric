@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_LIMITS_H_
-#define AM_NUMERIC_LIMITS_H_
-
+#pragma once
 
 #include <limits>
 #include <cmath>
@@ -124,6 +122,3 @@ constexpr T infinity = detail::infinity<T>::value();
 
 }  // namespace num
 }  // namespace am
-
-
-#endif

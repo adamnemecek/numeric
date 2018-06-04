@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_BOUNDED_H_
-#define AM_NUMERIC_BOUNDED_H_
-
+#pragma once
 
 #include <cmath>
 #include <cstdint>
@@ -1208,4 +1206,3 @@ public:
 
 } // namespace std
 
-#endif

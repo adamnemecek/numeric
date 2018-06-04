@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_EQUALITY_H_
-#define AM_NUMERIC_EQUALITY_H_
-
+#pragma once
 
 #include <complex>
 #include <type_traits>
@@ -186,5 +184,3 @@ approx_equal(InputIter begin1, InputIter end1,
 }  // namespace num
 }  // namespace am
 
-
-#endif

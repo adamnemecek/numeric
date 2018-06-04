@@ -8,8 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_CONVERSION_H_
-#define AM_NUMERIC_CONVERSION_H_
+#pragma once
 
 #include <cstdlib>
 #include <cstring>
@@ -384,5 +383,3 @@ to_fixed_string(T number, int precision, int intDigits,
 }  // namespace num
 }  // namespace am
 
-
-#endif

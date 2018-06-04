@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_SPLIT_BIQUATERNION_H_
-#define AM_NUMERIC_SPLIT_BIQUATERNION_H_
-
+#pragma once
 
 #include "quaternion.h"
 #include "scomplex.h"
@@ -163,4 +161,3 @@ make_split_biquaternion(const quaternion<T>& q)
 }  // namespace num
 }  // namespace am
 
-#endif

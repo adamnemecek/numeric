@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_NATURAL_INTERVAL_H_
-#define AM_NUMERIC_NATURAL_INTERVAL_H_
-
+#pragma once
 
 #include "natural.h"
 
@@ -147,5 +145,3 @@ max(const natural_interval<T>& i) noexcept -> decltype(i.max())
 }  // namespace num
 }  // namespace am
 
-
-#endif

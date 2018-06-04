@@ -8,9 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_BIQUATERNION_H_
-#define AM_NUMERIC_BIQUATERNION_H_
-
+#pragma once
 
 #include <complex>
 
@@ -153,5 +151,3 @@ make_biquaternion(const quaternion<T>& q)
 }  // namespace num
 }  // namespace am
 
-
-#endif

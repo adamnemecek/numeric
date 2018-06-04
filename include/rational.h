@@ -8,8 +8,7 @@
  *
  *****************************************************************************/
 
-#ifndef AM_NUMERIC_RATIONAL_H_
-#define AM_NUMERIC_RATIONAL_H_
+#pragma once
 
 #include <cmath>
 #include <cfloat>
@@ -871,4 +870,3 @@ public:
 
 } // namespace std
 
-#endif
